@@ -38,11 +38,11 @@ body, html {
     width: 80%;
     height: 40%;
     padding: 20px;
-    font-size: 250%;
+    font-size: 130%;
     text-align: center;
   }
 .button1{
-    font-size: 200%;
+    font-size: 100%;
     padding: 14px 40px;
     border-radius: 12px;
     background-color: black;
