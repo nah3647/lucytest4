@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("lucy1.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    height: 40%;
+    padding: 20px;
+    font-size: 250%;
+    text-align: center;
+  }
+.button1{
+    font-size: 200%;
+    padding: 14px 40px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgb(51, 42, 42), 0 6px 20px 0 rgb(44, 37, 37);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button1:hover {
+    background-color: burlywood;
+    color: white;
+  }
